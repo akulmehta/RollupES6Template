@@ -15,7 +15,7 @@ Clone this repository and install its dependencies:
 ```bash
 git clone https://github.com/akulmehta/RollupES6Template
 
-cd rollup-starter-app
+cd RollupES6Template
 
 npm install
 ```

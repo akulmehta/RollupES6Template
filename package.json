@@ -1,0 +1,32 @@
+{
+  "name": "rollup-module-starter",
+  "version": "1.0.0",
+  "description": "A starting template for projects to build a module and use rollup to bundle it.",
+  "keywords": [
+    ""
+  ],
+  "homepage": "",
+  "license": "",
+  "author": {
+    "name": "Akul Mehta",
+    "url": "https://akulmehta.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.16.2",
+    "rollup-plugin-node-resolve": "^3",
+    "rollup-plugin-terser": "^5.0.0",
+    "serve": "^11.0.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "dev": "npm-run-all --parallel start watch",
+    "start": "serve public"
+  }
+}
